@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party List and Submissions</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form class="party-sub-form">
+      <h1>Party Submission Form</h1>
+      <table>
+        <tr>
+          <td><label for="party-name">Party Name:</label></td>
+          <td><input type="text" id="party-name" /></td>
+        </tr>
+        <tr>
+          <td><label for="party-description">Party Description:</label></td>
+          <td><input type="text" id="party-description" /></td>
+        </tr>
+        <tr>
+          <td><label for="party-date">Party Date:</label></td>
+          <td><input type="text" id="party-date" /></td>
+        </tr>
+        <tr>
+          <td><label for="party-location">Party Location:</label></td>
+          <td><input type="text" id="party-location" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <button type="submit" id="party-submit-btn">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <h2>List of Parties</h2>
+    <table class="list-of-parties"></table>
+    <script src="./script.js"></script>
+  </body>
+</html>

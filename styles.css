@@ -1,0 +1,14 @@
+table {
+  border: 1px solid black;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+table tr {
+  border: 1px solid black;
+}
